@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <nav class="heading">
+      <header>
+        <ul id="heading1">
+          <li>[=]</li>
+          <li><img src="https://i.imgur.com/EW1S60K.png"/></li>
+          <li><a href="#" style="color:white">Home</a></li>
+          <li><form action = "amazon-search" method = "get">
+               <a href="#" style="color:white">Search</a> 
+               <input type = "text" name = "Name" value = ""  maxlength = "100" />
+              </form>
+          </li>
+          <li><form action = "country" method = "get">
+               <a href="#" style="color:white">Country</a> 
+               <input type = "text" name = "Name" value = ""  maxlength = "100" />
+              </form>
+          </li>
+          <li><a href="https://www.amazon.com/" style="color:white">contact >>> www.amazon.com</a></li>
+          <li style="margin:0 0 0 275px"><a href="#" style="color:white">Shopping Cart</a></li>
+          <li style="margin:0 0 0 20px"><a href="#" style="color:white">Sign in</a></li>
+        </ul>
+        <ul id="heading2">
+          <li><a href="#" style="color:black">Hot Deals</a></li>
+          <li><a href="#" style="color:black">Discount Offers</a></li>
+          <li><a href="#" style="color:black">Popular Products</a></li>
+          <li><a href="#" style="color:black">Services</a></li>
+        </ul>
+      </header>
+    </nav>
+
+    <nav id="line1">
+      <h2>New Products</h2>
+      <ul>
+          <li><img src="https://i.imgur.com/6jUhLhi.jpg"/></li>
+          <li><img src="https://i.imgur.com/N0SMjaT.jpg"/></li>
+          <li><img src="https://i.imgur.com/0M3VooY.jpg"/>
+          </li>
+          <li><img src="https://i.imgur.com/gBHNfiC.jpg"/>
+          </li>
+          <li><img src="https://i.imgur.com/cwAvG75.jpg"/></li>
+      </ul>
+    </nav>
+
+    <nav id="line2">
+      <h2>Sunday Sale</h2>
+      <ul>
+          <li><img src="https://i.imgur.com/0M3VooY.jpg"/></li>
+          <li><img src="https://i.imgur.com/wHmf8pL.jpg"/></li>
+          <li><img src="https://i.imgur.com/MJWCApM.jpg"/>
+          </li>
+          <li><img src="https://i.imgur.com/Ny0DQTz.jpg"/>
+          </li>
+          <li><img src="https://i.imgur.com/1Soq3tf.jpg"/></li>
+      </ul>
+    </nav>
+    <div class="dropdown">
+      <span>Mouse over me</span>
+      <div class="dropdown-content">
+       <p>Hello World!</p>
+      </div>
+    </div>
+
+    <div id="note">
+      <h2>Note</h2>
+      <p>This is a copy of amazon website.I tried my best to copy this website with limited amount of knowledge of html and i think done some good job.</p>
+    </div>
+
+    <div class="feedback">
+      <h1>Feedback</h1>
+      <form>
+       <label for="fname">Name:</label><br>
+       <input type="text" id="fname" name="fname"><br>
+
+       <label for="lname">Feedback:</label><br>
+       <input type="text" id="lname" name="lname">
+
+      </form>
+      <label for="rating">Choose a rating:</label>
+
+      <select name="ratings" id="ratings">
+         <option value="5 Star">-----</option>
+         <option value="5 Star">5 Star</option>
+         <option value="4 Star">4 Star</option>
+         <option value="3 Star">3 Star</option>
+         <option value="2 Star">2 Star</option>
+         <option value="1 Star">1 Star</option>
+      </select>
+    </div>
+  </body>
+</html>
